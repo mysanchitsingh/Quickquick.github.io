@@ -1,3 +1,10 @@
+body
+      {background-image: url(game.jpg);
+ height: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -43,10 +50,12 @@
 .hud-prefix {
   text-align: center;
   font-size: 2rem;
+  color: white;
 }
 
 .hud-main-text {
   text-align: center;
+ 
 }
 
 #progressBar {
